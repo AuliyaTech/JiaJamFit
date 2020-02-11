@@ -1,0 +1,33 @@
+.greyBox{
+    text-align: center;
+    /* display: inline; */
+}
+.join {
+    font-size: 35px;
+    color: rgb(83%, 40%, 56%);
+    background-color: lightgray;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+.join span {
+    font-size: 70px;
+    color: rgb(83%, 40%, 56%);
+}
+.pink {
+    background-color: rgb(83%, 40%, 56%);
+    color: #fff;
+    padding-top: 4px;
+}
+.pink input {
+    background-color: rgb(100%, 100%, 100%, 25%);
+    padding: 3px;
+    text-align: center;
+    color: #fff;
+}
+.go {
+    margin: 3px;
+}
+.find-class-form{
+    padding: 2px;
+
+}

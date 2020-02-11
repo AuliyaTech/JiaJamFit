@@ -1,0 +1,20 @@
+.navbar {
+    position: absolute;
+    top: 0px; 
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    background-color: seashell;
+}
+.logo{
+    height: 50px;
+    width: auto;
+}
+.nav-link {
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    margin-top:12px ;
+    color: #000;
+}

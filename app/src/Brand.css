@@ -1,0 +1,68 @@
+/* CSS Page for all Branding */
+@import url("https://use.typekit.net/zrl6oix.css");
+
+body{
+    /* background-color: lightcoral; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* background-image: url("./utils/images/bg_parallax.png"); */
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+a{
+    text-decoration: none;
+}
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vw;
+    /* background-image: url("./utils/images/bg_parallax.png"); */
+    background-color: #ca8081;
+    overflow: scroll;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.card {
+    background-color: rgb(100%, 100%, 100%);
+    margin-top: 2%;
+    padding: 30px;
+}
+.curs-txt{
+    font-family: 'timberline', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.reg-txt {
+    font-family: 'jaf-bernina-sans-condensed', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.head{
+    color: seashell;
+
+}
+.btn, .signUp-btn, .button{
+    background-color: rgb(83%, 40%, 56%);
+    color: #fff;
+    border: 3px white solid;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(83%, 40%, 56%);
+    border: none;
+}
+.sign-up-box{
+    background-color: #464854 ;
+    padding: 10px;
+    margin-top: 1%;
+}

@@ -1,0 +1,32 @@
+.header{
+    margin-top: 7%;
+    padding: 0px;
+}
+.tagline{
+    /* font-size: 70px; */
+    align-content: center;
+    margin-top: 20%;
+    position: relative;
+    right: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+.header-img{
+    margin: 0px;
+    height: 250px;
+    width: auto;
+    margin-left: auto; 
+    margin-right: auto;
+
+}
+.head {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}

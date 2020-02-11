@@ -1,0 +1,17 @@
+[{
+    "_id": 1,
+    "type": "contacts",
+    "content": {
+        "address": "XXXX Streetname Dr",
+        "location": "Brampton, ON",
+        "phone_number": "XXX-XXX-XXXX",
+        "email": "email@emailhost.com",
+        "social_media": {
+            "facebook": "fb.com/link",
+            "instagram": "instagram.com/link",
+            "youtube": "youtube.com/link",
+            "twitter": "twitter.com/link",
+            "pintrest": "pintrest.com/link"
+        }
+    }
+}]
