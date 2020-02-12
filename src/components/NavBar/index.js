@@ -15,7 +15,6 @@ function NavBar() {
                     <ul class="navbar-nav mx-auto">
 
                         <li class="nav-item mx-auto">
-                            <!-- <a class="nav-link reg-txt" href="https://auliyatech.github.io/JiaMailChimp/">REGISTER</a> -->
                                  <a class="nav-link reg-txt" href="/register">REGISTER</a>
                         </li>
                         <li class="nav-item mx-auto">
