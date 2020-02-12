@@ -15,7 +15,7 @@ function NavBar() {
                     <ul class="navbar-nav mx-auto">
 
                         <li class="nav-item mx-auto">
-                                 <a class="nav-link reg-txt" href="/register">REGISTER</a>
+                                <Link to="/register">REGISTER</Link>
                         </li>
                         <li class="nav-item mx-auto">
                             <a class="nav-link reg-txt" href="/testimonials">TESTIMONIALS</a>
