@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import {ParallaxProvider} from "react-scroll-parallax";
-import NavBar from "../components/NavBar";
 import Header from "../components/Header";
 import About from "../components/About";
 import Card from "../components/Card";
 import SignUp from "../components/SignUp";
 import JoinUs from "../components/JoinUs"
-import Locations from "../components/Locations"
+import TestimonialsOnHP from "../components/TestimonialsOnHP";
 import '../Brand.css';
 import Contact from '../components/Contact';
 
@@ -41,9 +40,9 @@ function HomePage() {
               <Testimonials />
             </Card> */}
 
-            {/* <div className="contact-box" >
-              <Locations/>
-            </div> */}
+            <div className="contact-box" >
+              <TestimonialsOnHP/>
+            </div>
 
             <Card>
               <Contact/>

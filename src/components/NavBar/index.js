@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import {Container, Row, Col} from "../Grid";
 import img from "../../utils/images/logo.png";
 import "./style.css";
@@ -15,19 +16,19 @@ function NavBar() {
                     <ul class="navbar-nav mx-auto">
 
                         <li class="nav-item mx-auto">
-                                <Link to="/register">REGISTER</Link>
+                                <Link to="/register" class="nav-link reg-txt">REGISTER</Link>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a class="nav-link reg-txt" href="/testimonials">TESTIMONIALS</a>
+                            <Link class="nav-link reg-txt" to="/testimonials">TESTIMONIALS</Link>
                         </li>
                         <li class="nav-item mx-auto logo">
-                           <a href="/"><img className="logo" src={img} /></a>
+                           <Link to="/"><img className="logo" src={img} /></Link>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a class="nav-link reg-txt" href="/location">LOCATIONS</a>
+                            <Link class="nav-link reg-txt" to="/location">LOCATIONS</Link>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a class="nav-link reg-txt" href="/contact">CONTACT</a>
+                            <Link class="nav-link reg-txt" to="/contact">CONTACT</Link>
                         </li>
                     </ul>
                 </div>

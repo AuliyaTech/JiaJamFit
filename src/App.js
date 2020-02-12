@@ -16,8 +16,8 @@ function App() {
 
       <div className="background">
         <div className="overlay">
-        <NavBar />
         <Router>
+        <NavBar />
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route exact path='/homepage' component={HomePage} />
