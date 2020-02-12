@@ -15,6 +15,9 @@
 a{
     text-decoration: none;
 }
+p{
+    color: #333;
+}
 body{
     background-color: #ca8081;   
     text-align: center;
@@ -46,6 +49,9 @@ body{
     color: #fff;
     border: 3px white solid;
     margin-top: 3px;
+    border-radius: 50%;
+    width: 100px;
+    
 }
 .btn:hover{
     background-color: white;
@@ -67,4 +73,16 @@ body{
 .form-control{
     background-color: #E2A5A6;
     color: #fff;
+}
+/* #sign-up-btn{
+    position: relative;
+    top: -30px;
+    right: 20px;
+} */
+.music_bg{
+    background-image: url("./utils/images/bg_music.png") ;
+    
+}
+.heading{
+    z-index: -10;
 }

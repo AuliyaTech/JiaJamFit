@@ -19,9 +19,12 @@ function Locations () {
                                 <Col size="md-6">
                                     <iframe src={l.map} width="400" height="300" frameborder="0"  allowfullscreen=""></iframe>
                                 </Col>
-                                <Col size="md-4">
-                                    <p className="curs-txt colored-txt contact-title" key={l._id}>{l.city}</p>
-                                    <p className="reg-txt colored-txt address">{l.address}</p>
+                                <Col size="md-4" >
+                                    <div className="address-info">
+                                        <p className="curs-txt colored-txt contact-title" key={l._id}>{l.city}</p>
+                                        <p className="reg-txt colored-txt address">{l.address}</p>
+                                    </div>
+                                    
                                 </Col>
                                 <Col size="md-1"></Col>
 

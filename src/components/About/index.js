@@ -26,7 +26,6 @@ function About(props) {
           </Col>
         </Row>
       )
-
 }
 
 

@@ -37,6 +37,9 @@ function App() {
             <div className="sign-up-box" >
               <SignUp/>
             </div>
+            <div className="music_bg">
+              <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            </div>
 
             {/* <Card>
               <SocialMedia />
@@ -46,9 +49,9 @@ function App() {
               <Testimonials />
             </Card> */}
 
-            <div className="contact-box" >
+            {/* <div className="contact-box" >
               <Locations/>
-            </div>
+            </div> */}
 
             <Card>
               <Contact/>
