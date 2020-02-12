@@ -13,7 +13,9 @@ import Testimonials from "./components/Testimonials"
 import Card from "./components/Card";
 import SignUp from "./components/SignUp";
 import JoinUs from "./components/JoinUs"
+import Locations from "./components/Locations"
 import './Brand.css';
+import Contact from './components/Contact';
 
 function App() {
     return (
@@ -36,20 +38,20 @@ function App() {
               <SignUp/>
             </div>
 
-            <Card>
+            {/* <Card>
               <SocialMedia />
-            </Card>
+            </Card> */}
 
-            <Card>
+            {/* <Card>
               <Testimonials />
-            </Card>
+            </Card> */}
+
+            <div className="contact-box" >
+              <Locations/>
+            </div>
 
             <Card>
-              <Contacts />
-            </Card>
-
-            <Card>
-              <Blog />
+              <Contact/>
             </Card>
 
           </ParallaxProvider>

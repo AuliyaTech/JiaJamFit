@@ -1,22 +1,3 @@
-.to-know {
-    font-size: 20px;
-    margin: 0px;
-    text-align: center;
-    color: white;
-}
-.know{
-    font-size: 25px;
-}
-.signUp {
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    padding: 15px;
-}
-.signUp-btn {
-    padding: 4px;
-    width: 100px;
-}
-.signup-form {
-    display: inline;
+.first-to-know{
+    width: 300px;
 }

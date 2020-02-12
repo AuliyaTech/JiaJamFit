@@ -5,29 +5,36 @@ import "./style.css";
 
 function NavBar() {
     return(
-        <div className="navbar heading">
+        <div className="navigation">
+            <nav class="navbar navbar-expand-lg navbar-toggleable-md navbar-light bg-light">
+            <Container>
+                <Row>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
-            <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 
-                <div className="container navigation">
+                    <ul class="navbar-nav mx-auto">
 
-                    
-
-                    <Container>
-                        <Row className="reg-txt">
-                            <Col size="md-3"><a className="nav-link reg-txt" href="#">about</a></Col>
-                            <Col size="md-2"><a className="nav-link reg-txt" href="#">testimonials</a></Col>
-                            <Col size="md-2"><a className="reg-txt" href="#"><img className="logo" src={img} /></a></Col>
-                            <Col size="md-2"><a className="nav-link reg-txt" href="#">contact</a></Col>
-                            <Col size="md-3"><a className="nav-link reg-txt" href="#">follow Us</a></Col>
-                        </Row>
-                    </Container>
-
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link reg-txt" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link reg-txt" href="#">TESTIMONIALS</a>
+                        </li>
+                        <li class="nav-item mx-auto logo">
+                            <img className="logo" src={img} />
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link reg-txt" href="#">LOCATIONS</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link reg-txt" href="#">CONTACT</a>
+                        </li>
+                    </ul>
                 </div>
-
+                </Row>
+            </Container>
             </nav>
-
-
+            
         </div>
 
     )

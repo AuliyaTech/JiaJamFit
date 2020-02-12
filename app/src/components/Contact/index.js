@@ -1,20 +1,24 @@
 import React from 'react';
-import API from "../../utils/API";
+import {Container} from "../Grid";
 import "./style.css";
 
 function Contact() {
-    const Contacts = API.getContacts[0].content
-    console.log(Contacts)
     return(
-        <div className="contact heading">
-            <h1>Contact</h1>
-            <h5>Address: </h5>
-            <p>{Contacts.address}</p>
-            <p>{Contacts.location}</p> 
-            <br />
-            <h5>Phone Number: {Contacts.phone_number} </h5>       
-            <h5>Email: {Contacts.email}</h5>
+        <Container>
+            <div className="contact heading">
+            <p className="reg-txt colored-txt contact-title">We'd love to here from you...</p>
+            <form className="contact-form">
+                <label className="reg-txt">Your Name</label>
+                <input type="text" placeholder="Jane Doe" id="contact-name" className="form-control reg-txt mb-2 mr-sm-2 contact-form"/>
+                <label className="reg-txt">Your Email</label>
+                <input type="text" placeholder="jane@email.com" id="contact-email" className="form-control reg-txt mb-2 mr-sm-2 contact-form" />
+                <label className="reg-txt">Comment</label>
+                <input type="text" placeholder="Write your comment here..." id="contact-comment" className="form-control reg-txt mb-2 mr-sm-2 contact-form" />
+                <button type="submit" className="btn btn-primary curs-txt mb-2 sign-up-form" id="contact-btn">Send</button>
+            </form>
         </div>
+        </Container>
+        
 
     )
 }

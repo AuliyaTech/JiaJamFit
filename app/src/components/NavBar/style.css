@@ -1,20 +1,46 @@
-.navbar {
-    position: absolute;
-    top: 0px; 
-    left: 0px;
+.navigation{
+    height: auto;
+}
+.navbar { 
     width: 100%;
+    height: 100%;
+    overflow: visible;
     text-align: center;
     align-content: center;
     background-color: seashell;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+.mx-auto{
+    width: 100%;
+}
+.navbar-nav{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    /* margin-right: auto;
+    margin-left: center; */
+
 }
 .logo{
     height: 50px;
     width: auto;
 }
-.nav-link {
+@media only screen and (max-width: 991px){
+    .logo{
+        visibility: hidden;
+    }
+}
+.nav-item {
+    /* margin-left: auto; 
+    margin-right: auto; */
     height: 100%;
     align-content: center;
     text-align: center;
     margin-top:12px ;
     color: #000;
+}
+.nav-link, .logo{
+    margin-left: 9vw;
+
 }

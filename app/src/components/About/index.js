@@ -16,13 +16,13 @@ function About(props) {
     return (
         <Row>
           <Col size="md-4">
-          <p className="abt-content reg-txt">{API.getAbout[0].content}</p>
+          <p className="abt-content reg-txt written-about">{API.getAbout[0].content}</p>
           </Col>
           <Col size="md-4">
-          <img className="abt-content" src={diamonds}/>
+          <img className="abt-content image-about" src={diamonds}/>
           </Col>
           <Col size="md-4">
-          <img className="abt-content" src={join}/>
+          <img className="abt-content image-join" src={join}/>
           </Col>
         </Row>
       )

@@ -1,8 +1,21 @@
 .abt-content{
     margin: 0px;
 }
-img {
-    width: 20vw;
-    height: auto;
+.written-about{
+    font-size: 25px;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-
+.image-about {
+    width: 250px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.image-join{
+    width: 300px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}

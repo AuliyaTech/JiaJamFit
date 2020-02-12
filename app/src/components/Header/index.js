@@ -7,7 +7,9 @@ function Header() {
     return(
         <div className="header heading">
             <Row>
-                <img class="header-img" src={img}/>
+                <div className="header-img-container">
+                    <img class="header-img" src={img}/>
+                </div>
             </Row>
             
             
