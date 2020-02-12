@@ -27,7 +27,7 @@ function NavBar() {
                             <a class="nav-link reg-txt" href="/location">LOCATIONS</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a class="nav-link reg-txt" href="/waiver">WAIVER</a>
+                            <a class="nav-link reg-txt" href="/contact">CONTACT</a>
                         </li>
                     </ul>
                 </div>
