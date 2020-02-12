@@ -1,21 +1,15 @@
 import React, {Component} from 'react';
-import {ParallaxProvider} from "react-scroll-parallax";
-// import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {Container, Col, Row} from "./components/Grid";
-// import Parallax from "./components/Parallax";
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import NavBar from "./components/NavBar";
-import Header from "./components/Header";
-import About from "./components/About";
-import Blog from "./components/Blog";
-import SocialMedia from "./components/SocialMedia"
-import Contacts from "./components/Contact"
-import Testimonials from "./components/Testimonials"
-import Card from "./components/Card";
-import SignUp from "./components/SignUp";
-import JoinUs from "./components/JoinUs"
 import Locations from "./components/Locations"
+import HomePage from "./pages/homepage";
+import Footer from "./components/Footer"
+import Waiver from "./components/Waiver"
+import testimonials from "./components/Testimonials"
+// import Register from "./register.html";
+
 import './Brand.css';
-import Contact from './components/Contact';
+
 
 function App() {
     return (
@@ -23,41 +17,18 @@ function App() {
       <div className="background">
         <div className="overlay">
         <NavBar />
+        <Router>
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route exact path='/homepage' component={HomePage} />
+          <Route exact path='/location' component={Locations} />
+          <Route exact path='/waiver' component={Waiver} />
 
-        <ParallaxProvider>
-            
-            <Header />
-
-            <Card>
-              <About>
-                <JoinUs />
-              </About>
-            </Card>
-
-            <div className="sign-up-box" >
-              <SignUp/>
-            </div>
-            <div className="music_bg">
-              <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            </div>
-
-            {/* <Card>
-              <SocialMedia />
-            </Card> */}
-
-            {/* <Card>
-              <Testimonials />
-            </Card> */}
-
-            {/* <div className="contact-box" >
-              <Locations/>
-            </div> */}
-
-            <Card>
-              <Contact/>
-            </Card>
-
-          </ParallaxProvider>
+          <Route exact path='/testimonials' component={testimonials} />
+          {/* <Route component={NotFound} /> */}
+        </Switch>
+      </Router>
+      <Footer/>
           </div>
       </div>
   

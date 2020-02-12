@@ -5,4 +5,21 @@
 }
 .address{
     font-size: 20px;
+    width: 200px
+}
+.locations{
+    margin-left: auto;
+    margin-right: auto;
+}
+.map-dump{
+    background: #fff;
+
+}
+.title-location{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.map{ 
+    margin: 50px;
 }

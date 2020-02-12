@@ -15,19 +15,19 @@ function NavBar() {
                     <ul class="navbar-nav mx-auto">
 
                         <li class="nav-item mx-auto">
-                            <a class="nav-link reg-txt" href="#">ABOUT</a>
+                            <a class="nav-link reg-txt" href="https://auliyatech.github.io/JiaMailChimp/">REGISTER</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a class="nav-link reg-txt" href="#">TESTIMONIALS</a>
+                            <a class="nav-link reg-txt" href="/testimonials">TESTIMONIALS</a>
                         </li>
                         <li class="nav-item mx-auto logo">
-                            <img className="logo" src={img} />
+                           <a href="/"><img className="logo" src={img} /></a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a class="nav-link reg-txt" href="#">LOCATIONS</a>
+                            <a class="nav-link reg-txt" href="/location">LOCATIONS</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a class="nav-link reg-txt" href="#">CONTACT</a>
+                            <a class="nav-link reg-txt" href="/waiver">WAIVER</a>
                         </li>
                     </ul>
                 </div>

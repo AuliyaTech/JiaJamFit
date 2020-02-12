@@ -7,32 +7,30 @@ function Locations () {
     const locations = API.getContacts[0].content
 
     return(
-        <div>
-            <p className="reg-txt colored-txt contact-title">Our Locations...</p>
+        <div className="locations">
+            <p className="curs-txt title-location contact-title">Our Locations...</p>
             <Container>
+                <div className="map-dump">
+                <Row>
+                
             {
                 locations.map(l =>{
                     return(
-                        <div>
-                            <Row>
-                                <Col size="md-1"></Col>
-                                <Col size="md-6">
+                        <div className="map">
+                                <Col size="md-4">
                                     <iframe src={l.map} width="400" height="300" frameborder="0"  allowfullscreen=""></iframe>
-                                </Col>
-                                <Col size="md-4" >
                                     <div className="address-info">
                                         <p className="curs-txt colored-txt contact-title" key={l._id}>{l.city}</p>
                                         <p className="reg-txt colored-txt address">{l.address}</p>
                                     </div>
-                                    
                                 </Col>
-                                <Col size="md-1"></Col>
 
-                            </Row>
                         </div>
                     )
                 })
-            }
+}
+            </Row>
+            </div>
             </Container>
 
         </div>
