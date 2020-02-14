@@ -12,7 +12,7 @@ function TestimonialsOnHP () {
     const latest_3 = num_of_test-3
     return(<div>
         <Container>
-            <Row><p className="reg-txt colored-txt test-title">From Our <span className="curs-txt">SQUAD</span></p></Row>
+            <Row><p className="reg-txt colored-txt test-title">From Our SQUAD</p></Row>
             <Row>
                 <Col size="md-4"><iframe width="80%" height="80%" src={testimonials[latest_1].testimonial} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Col>
                 <Col size="md-4"><iframe width="80%" height="80%" src={testimonials[latest_2].testimonial} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Col>
