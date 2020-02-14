@@ -50,8 +50,8 @@ body{
     border: none;
     margin-top: 3px;
     border-radius: 50%;
-    
-    
+    width: 100px;
+    height:100px;
 }
 .btn:hover{
     background-color: white;
