@@ -5,7 +5,7 @@ import {Parallax} from "react-scroll-parallax";
 // import Client from "../../utils/prismic-config";
 import diamonds from "../../utils/images/diamonds.png"
 import join from "../../utils/images/bg_join.png"
-// import JoinUs from "../JoinUs";
+import JoinUs from "../JoinUs";
 import {Container, Row, Col} from "../Grid"
 import API from "../../utils/API";
 import "./style.css";
@@ -23,12 +23,8 @@ function About(props) {
 
           </Col>
           <Col size="md-4">
-          //<img className="abt-content image-join" src={join}/>
-                <DropdownButton id="dropdown-basic-button" title="Dropdown button">
-  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-  <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-  <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-</DropdownButton>
+          <img className="abt-content image-join" src={join}/>
+               
           </Col>
         </Row>
       )
