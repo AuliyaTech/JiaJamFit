@@ -48,13 +48,12 @@ body{
     background-color:  #ca8081;
     color: #fff;
     border: none;
-    margin-top: 3px;
     border-radius: 50%;
     width: 70px;
     height:70px;
 }
 .btn:hover{
-    background-color: white;
+    background-color: #e3e3e3;
     color: #ca8081;
     border: none;
 }
