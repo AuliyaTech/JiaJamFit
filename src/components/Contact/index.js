@@ -6,7 +6,7 @@ function Contact() {
     return(
         <Container>
             <div className="contact heading">
-            <p className="reg-txt colored-txt contact-title">We would love to hear from you...</p>
+            <p className="reg-txt colored-txt test-title">We would love to hear from you...</p>
             <form className="contact-form">
                 <input type="text" placeholder="Your Name" id="contact-name" className="form-control reg-txt mb-2 ml-sm-2 contact-form"/>
                 <input type="text" placeholder="Your Email" id="contact-email" className="form-control reg-txt mb-2 ml-sm-2 contact-form" />
