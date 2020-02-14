@@ -12,7 +12,8 @@ function Testimonials() {
 
     return(
         <div className="testimonials heading">
-            <p className="reg-txt colored-txt test-title">From Our <span className="curs-txt">SQUAD</span></p>{
+             <p className="curs-txt title-location contact-title">From our Squad...</p>
+            <Container>{
                 Testimonials.map( key =>{
                     let displayContent;
                     if(key.testimonial_type ==="text"){
@@ -29,7 +30,7 @@ function Testimonials() {
                         </div>
                     )
                 })
-            }
+            }</container>
         </div>
 
     )
