@@ -47,10 +47,10 @@ body{
 .btn, .signUp-btn, .button{
     background-color:  #ca8081;
     color: #fff;
-    border: 3px white solid;
+    border: none;
     margin-top: 3px;
     border-radius: 50%;
-    width: 100px;
+    
     
 }
 .btn:hover{
