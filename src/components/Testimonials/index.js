@@ -13,7 +13,7 @@ function Testimonials() {
 
     return(
         <div className="testimonials heading">
-             <p className="curs-txt title-location contact-title">From our Squad...</p>
+             <p className="curs-txt contact-title">From our Squad...</p>
             <Container>{
                 Testimonials.map( key =>{
                     let displayContent;
