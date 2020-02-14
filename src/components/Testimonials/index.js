@@ -1,4 +1,5 @@
 import React from 'react';
+import {Container, Row, Col} from "../Grid";
 import API from "../../utils/API"
 import "./style.css";
 
@@ -30,7 +31,7 @@ function Testimonials() {
                         </div>
                     )
                 })
-            }</container>
+            }</Container>
         </div>
 
     )
