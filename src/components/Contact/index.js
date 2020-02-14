@@ -3,7 +3,7 @@ import {Container, Row, Col} from "../Grid"
 import "./style.css";
 
 function Contact() {
-    return(<div className="contact">
+    return(<div>
         <Container>
         <Row><p className="reg-txt colored-txt contact-title">We would love to hear from you...</p></Row>
             <Row><form className="contact-form">
