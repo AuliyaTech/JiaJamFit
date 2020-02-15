@@ -29,7 +29,7 @@ function HomePage() {
            //   <SignUp/>
            // </div>
             <div className="music_bg">
-              <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+              <br/><br/><img src="/src/utils/images/genre.png" /><br/><br/>
             </div>
 
             {/* <Card>
