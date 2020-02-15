@@ -8,6 +8,7 @@ import JoinUs from "../components/JoinUs"
 import TestimonialsOnHP from "../components/TestimonialsOnHP";
 import '../Brand.css';
 import Contact from '../components/Contact';
+import genre from "../utils/images/genre.png"
 
 function HomePage() {
     return (
@@ -29,7 +30,7 @@ function HomePage() {
               <SignUp/>
             </div> */}
             <div className="music_bg">
-              <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+              <br/><br/><img className="img-fluid" src={genre}/><br/><br/>
             </div>
 
             {/* <Card>
