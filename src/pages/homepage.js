@@ -3,7 +3,7 @@ import {ParallaxProvider} from "react-scroll-parallax";
 import Header from "../components/Header";
 import About from "../components/About";
 import Card from "../components/Card";
-import SignUp from "../components/SignUp";
+import SignUp from "../components/SignUp/MyForm";
 import JoinUs from "../components/JoinUs"
 import TestimonialsOnHP from "../components/TestimonialsOnHP";
 import '../Brand.css';

@@ -12,9 +12,11 @@ function Testimonials() {
 
 
     return(
-        <div className="testimonials heading">
-             <p className="curs-txt contact-title">From our Squad...</p>
-            <Container>{
+        <div>
+             <p className="curs-txt title-location contact-title">From our Squad...</p>
+
+            <Container>
+                <div className="testimonials heading">{
                 Testimonials.map( key =>{
                     let displayContent;
                     if(key.testimonial_type ==="text"){
@@ -25,13 +27,15 @@ function Testimonials() {
                     }
                     return (
                         <div>
-                            <p className="reg-txt squad"> {key.author} says...</p>
+                            <p className="reg-txt colored-txt squad"> {key.author} says...</p>
                             {displayContent}
                             <br />
                         </div>
                     )
                 })
-            }</Container>
+        
+            }</div>
+            </Container>
         </div>
 
     )

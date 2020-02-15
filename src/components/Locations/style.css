@@ -2,10 +2,11 @@
     padding: 10px;
     margin-top: auto;
     margin-bottom: auto;
+    width: 300px;
 }
 .address{
     font-size: 20px;
-    width: 200px
+    width: 300px
 }
 .locations{
     margin-left: auto;
@@ -21,5 +22,7 @@
     margin-top: 30px;
 }
 .map{ 
-    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }

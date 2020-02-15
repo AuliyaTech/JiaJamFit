@@ -2,10 +2,10 @@
     text-align: left;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 70px;
+    margin-bottom: 70px;
 }
 .contact-form{
-    width: 80%;
+    width: 100%;
     margin-left: auto; 
     margin-right: auto;
 }
@@ -16,10 +16,10 @@
     width: 200px;
     text-align: left;
 }
-#contact-btn{
-    width: 100px;
-}
 #contact-comment{
     height:100px;
     line-height: 20px;
+}
+#contact-btn{
+    margin: 10%
 }

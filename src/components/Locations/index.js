@@ -17,11 +17,12 @@ function Locations () {
                 locations.map(l =>{
                     return(
                         <div className="map">
-                                <Col size="md-4">
-                                    <iframe src={l.map} width="400" height="300" frameborder="0"  allowfullscreen=""></iframe>
+                                <Col size="md-6">
+                                    <iframe src={l.map} width="300" height="300" frameborder="0"  allowfullscreen=""></iframe>
                                     <div className="address-info">
-                                        <p className="curs-txt colored-txt contact-title" key={l._id}>{l.city}</p>
+                                        <p className="curs-txt colored-txt contact-title">{l.title}</p>
                                         <p className="reg-txt colored-txt address">{l.address}</p>
+                                        <p className="reg-txt colored-txt address" key={l._id}>{l.city}</p>
                                     </div>
                                 </Col>
 
