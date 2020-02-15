@@ -8,7 +8,7 @@ import JoinUs from "../components/JoinUs"
 import TestimonialsOnHP from "../components/TestimonialsOnHP";
 import '../Brand.css';
 import Contact from '../components/Contact';
-import genre from "../../utils/images/genre.png"
+import genre from "../utils/images/genre.png"
 
 function HomePage() {
     return (
