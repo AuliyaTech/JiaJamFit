@@ -25,9 +25,7 @@ function HomePage() {
               </About>
             </Card>
 
-           // <div className="sign-up-box" >
-           //   <SignUp/>
-           // </div>
+         
             <div className="music_bg">
               <br/><br/><img src="/src/utils/images/genre.png" /><br/><br/>
             </div>
