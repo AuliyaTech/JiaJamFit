@@ -28,7 +28,7 @@ function HomePage() {
 
          
             <div className="music_bg">
-              <br/><br/><img className="" src={genre}/><br/><br/>
+              <br/><br/><img className="img-fluid" src={genre}/><br/><br/>
             </div>
 
             {/* <Card>
